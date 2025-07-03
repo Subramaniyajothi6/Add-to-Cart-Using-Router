@@ -8,7 +8,7 @@ A responsive React application that fetches products from the Fake Store API and
 
 - [Live Demo](#-live-demo)
 - [Features](#-features)
-- [Screenshots](#-️-screenshots)
+- [Screenshots](#--screenshots)
 - [Tech Stack](#-tech-stack)
 - [Folder Structure](#-folder-structure)
 - [How to Run Locally](#-how-to-run-locally)
@@ -35,7 +35,7 @@ A responsive React application that fetches products from the Fake Store API and
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots 🖼️
 
 ### 🛍️ Product Listing Page  
 ![Product Page](https://github.com/Subramaniyajothi6/Add-to-Cart-Using-Router/blob/main/Product-Page.png)
@@ -45,7 +45,7 @@ A responsive React application that fetches products from the Fake Store API and
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack 🛠️
 
 - React (Vite)
 - Tailwind CSS
@@ -54,7 +54,7 @@ A responsive React application that fetches products from the Fake Store API and
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure 📁
 
 ```txt
 src/
@@ -72,7 +72,7 @@ src/
 
 ---
 
-## 🧑‍💻 How to Run Locally
+## How to Run Locally 🧑‍💻
 
 ```bash
 # Clone the repository
@@ -90,6 +90,6 @@ npm run dev
 
 ---
 
-## 📬 Contact
+## Contact 📬
 
 Feel free to connect on [GitHub](https://github.com/Subramaniyajothi6)
