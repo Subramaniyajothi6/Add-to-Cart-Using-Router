@@ -37,7 +37,7 @@ const Cart = (props) => {
 
                 </div>
 
-                <div className="flex items-center  gap-5 sm:gap-2 ">
+                <div className="flex items-center  gap-5 sm:gap-2  ">
                   <div className="flex  gap-2 flex-col">
 
                     <div>
@@ -79,11 +79,11 @@ const Cart = (props) => {
 
           )
         })}
-        <div className=" container mx-auto flex items-end pr-4 flex-col">
-          <div>
-             <p className="text-lg font-semibold"> Price : ${cart.reduce((acc, i) => acc + i.price * i.quantity, 0).toFixed(2)}</p>
-          <p className="text-lg font-semibold">Discount : ${ (cart.reduce((acc, i) => acc + i.price * i.quantity, 0)*0.1).toFixed(2)}</p>
-          <p className="text-lg font-semibold">total price : ${(cart.reduce((acc, i) => acc + i.price * i.quantity, 0)*0.9).toFixed(2)}</p>
+        <div className=" container mx-auto flex items-end pr-30 flex-col">
+          <div className="flex flex-col ">
+             <p className="text-lg flex gap-3.5 font-semibold"> Price :<span className="pl-7">${cart.reduce((acc, i) => acc + i.price * i.quantity, 0).toFixed(2)}</span>   </p>
+          <p className="text-lg font-semibold">Discount :<span className="pl-3">${ (cart.reduce((acc, i) => acc + i.price * i.quantity, 0)*0.1).toFixed(2)}</span>    </p>
+          <p className="text-lg font-semibold">total price :<span className="pl-1">${(cart.reduce((acc, i) => acc + i.price * i.quantity, 0)*0.9).toFixed(2)}</span>  </p>
         
           </div>
          </div>
