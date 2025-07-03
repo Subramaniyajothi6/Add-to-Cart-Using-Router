@@ -8,7 +8,7 @@ A responsive React application that fetches products from the Fake Store API and
 
 - [Live Demo](#-live-demo)
 - [Features](#-features)
-- [Screenshots](#-screenshots)
+- [Screenshots](#screenshots)
 - [Tech Stack](#-tech-stack)
 - [Folder Structure](#-folder-structure)
 - [How to Run Locally](#-how-to-run-locally)
